@@ -1,15 +1,12 @@
-# 🚀 Welcome to your new awesome project!
+# nodegui-starter-js
 
-This project has been created using **webpack-cli**, you can now run
+  
 
-```
-npm run build
-```
+## Clone this repo and start your own project with minimalis dependency
 
-or
+  
 
-```
-yarn build
-```
+Basicly a [nodegui-starter](https://github.com/nodegui/nodegui-starter) but removed **Typescript**. you can compare it on each `package.json`. other than that is similar. like script to build and many more
 
-to bundle your application
+you can go to [nodegui-starter#To Use](https://github.com/nodegui/nodegui-starter#to-use) for more info
+and visit [NodeGui Documentation](https://docs.nodegui.org/) 😅

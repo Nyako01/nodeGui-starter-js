@@ -1,10 +1,9 @@
 {
+  "name": "nodegui-starter-js",
+  "version": "1.0.0",
   "dependencies": {
     "@nodegui/nodegui": "^0.61.0"
   },
-  "name": "my-webpack-project",
-  "version": "1.0.0",
-  "main": "index.js",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
@@ -16,14 +15,10 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch"
+    "build": "webpack --mode production",
+    "start": "webpack && qode ./dist/index.js",
+    "debug": "webpack && qode --inspect ./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "My webpack project"
+  "author": "Nyako01",
+  "description": "A basic and clean nodegui, ready to development"
 }
